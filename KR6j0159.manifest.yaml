@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6j0159/v1
+canonical_location: https://kanripo.org/bkk/KR6j0159/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛頂大白傘蓋陀羅尼經
+  identifiers:
+    alt_id:
+    - T19n0976
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T19/T19n0976.xml
+    old_id: T19n0976
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0159_000.yaml, hash: 'sha256:7be04ca67cdfc2dbcafc16b130515ed62afe44838c426db2a5265aee80d28f85'}
+  - {seq: 1, filename: KR6j0159_001.yaml, hash: 'sha256:9d6e03a87ab07eb8f6b8f3ea72540a2f8d9c34f9312f2fe44ffbcb19dd71493d'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0159_001.markers.yaml, hash: 'sha256:77b2f4b69a4861f8cc7198dcdd12e49868364ba5711c48c2c31ffdb52142385e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0159_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3972
+  label: 佛頂大白傘蓋陀羅尼經
+  type: juan
+  level: 1
+hash: sha256:667779479e3b4ddb6ecba3129c87d31c06ec2c19d1030730c4a99d78ed0e1751
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
