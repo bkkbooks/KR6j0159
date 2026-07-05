@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0159_000.yaml, hash: 'sha256:7be04ca67cdfc2dbcafc16b130515ed62afe44838c426db2a5265aee80d28f85'}
-  - {seq: 1, filename: KR6j0159_001.yaml, hash: 'sha256:9d6e03a87ab07eb8f6b8f3ea72540a2f8d9c34f9312f2fe44ffbcb19dd71493d'}
+  - {seq: 1, filename: KR6j0159_001.yaml, hash: 'sha256:b1adf521b7ee9241aadf592e2e3462d3f17a0e149ea219a00bcbcff6ed8414fa'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0159_001.markers.yaml, hash: 'sha256:77b2f4b69a4861f8cc7198dcdd12e49868364ba5711c48c2c31ffdb52142385e'}
+  - {seq: 0, role: markers, filename: assets/KR6j0159_000.markers.yaml, hash: 'sha256:01224f2adb98208dc56e1602bbe5d7544b29e4c94fa16286e9b8156495e3cd44'}
+  - {seq: 1, role: markers, filename: assets/KR6j0159_001.markers.yaml, hash: 'sha256:3fa9b82bdd7a8ced644b47cb0349b862988b008d0bcc2a388b8511081fc7e7d4'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 佛頂大白傘蓋陀羅尼經
   type: juan
   level: 1
-hash: sha256:667779479e3b4ddb6ecba3129c87d31c06ec2c19d1030730c4a99d78ed0e1751
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:fe38697cdcefd270811725f9e450aa343167b093e00af63392d12369e49599f8
